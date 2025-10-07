@@ -21,7 +21,7 @@
         "backgroundColor": "#1a2e5d"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.corsairbrix.GestPay"
+      "package": ""
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -37,11 +37,6 @@
         "name": "camera",
         "description": "Allow GestPay to access your camera for FacePay setup."
       }
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "a84c4600-9722-4eab-9891-fd37ff5efb88"
-      }
-    }
+    ]
   }
 }

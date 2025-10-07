@@ -1,6 +1,6 @@
 # GestPay - Complete Payment Solution
 
-GestPay is a comprehensive payment solution featuring face recognition technology, built with a modern tech stack including PHP backend, Next.js web application, and React Native mobile app.
+GestPay is a comprehensive payment solution featuring face recognition technology, built with a modern tech stack including Python-PHP backend, Next.js web application, and React Native mobile app.
 
 ## 🏗️ Project Structure
 
