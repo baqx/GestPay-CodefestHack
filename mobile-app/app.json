@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "GestPay",
+    "slug": "GestPay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a2e5d"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a2e5d"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.corsairbrix.GestPay"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "assetBundlePatterns": [
+      "assets/fonts/Space-Grotesk/*.ttf"
+    ],
+    "permissions": [
+      {
+        "name": "camera",
+        "description": "Allow GestPay to access your camera for FacePay setup."
+      }
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a84c4600-9722-4eab-9891-fd37ff5efb88"
+      }
+    }
+  }
+}
